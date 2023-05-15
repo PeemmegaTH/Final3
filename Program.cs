@@ -11,7 +11,8 @@ class Program{
         location_CK = (Console.ReadLine());
         location_Output = (Console.ReadLine());
         
-        double[,] Getlocation = ReadImageDataFromFile(location);
+        double[,] read_location = ReadImageDataFromFile(location);
+        double[,] read_location_CK = ReadImageDataFromFile(location_CK);
 
         static double[,] ReadImageDataFromFile(string imageDataFilePath)
         {
